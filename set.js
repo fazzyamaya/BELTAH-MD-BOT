@@ -10,8 +10,8 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
 module.exports = { session: process.env.SESSION_ID || 'BELTAH-MD',
     PREFIXE: process.env.PREFIX || "+",
     GITHUB : process.env.GITHUB|| 'https://github.com/Beltah254/BELTAH-MD',
-    OWNER_NAME : process.env.OWNER_NAME || "Beltah254",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || "254114141192",  
+    OWNER_NAME : process.env.OWNER_NAME || "APPLE",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || "2349075487568",  
               
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "non",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'non',
